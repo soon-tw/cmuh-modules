@@ -1,0 +1,21 @@
+{
+  "name": "codedjet",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "tsc && concurrently \"npm run tsc:w\" \"npm run lite\" ",
+    "lite": "lite-server",
+    "postinstall": "typings install",
+    "tsc": "tsc",
+    "tsc:w": "tsc -w",
+    "typings": "typings"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "angular2-jwt": "0.1.16"
+  },
+  "devDependencies": {
+    "angular2-jwt": "0.1.16",
+    "atob": "^2.0.3"
+
+  }
+}
